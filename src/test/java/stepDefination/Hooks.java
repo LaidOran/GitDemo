@@ -9,7 +9,12 @@ public class Hooks extends Base{
 		@Before("@Test")
 		public void beforevalidation()
 		{
-			System.out.println("BeforeHooks");	
+			System.out.println("Methode modifier");	
+		}
+		@Before("@Test")
+		public void beforevalidation1()
+		{
+			System.out.println("Methode modifier1");	
 		}
 		 
 		@After("@SeleniumTest")
